@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nature</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<!-- animation on scroll -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- con estas propiedades el background del navbar cambiara segun la seccion donde se encuentre -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Nature</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-lg-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#explore">Explore</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#adventure">Adventure</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#blog">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+						<!-- <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Dropdown
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+						</li> -->
+					</ul>
+					<!-- <form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form> -->
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="jumbotron jumbotron-fluid height100p banner" id="home">
+		<div class="container h100">
+			<div class="contentBox h100">
+				<div>
+					<!-- ponemo los efectos el AOS -->
+					<h1 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500">Undiscovered Beauty</h1>
+					<p data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illo possimus repellat obcaecati hic exercitationem, eaque veniam corporis aliquid dicta quidem nesciunt reprehenderit modi deserunt necessitatibus vero similique eveniet? Explicabo aperiam quidem necessitatibus velit repellat!</p>
+				</div>
+			</div>
+			<!-- <h1 class="display-4">Fluid jumbotron</h1>
+			<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+		</div>
+	</div>
+
+	<section class="sec1" id="explore">
+		<div class="container">
+			<div class="row">
+				<div class="offset-sm-2 col-sm-8">
+					<div class="headerText text-center">
+						<h2 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500">Explore the World</h2>
+						<p data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit ipsum sunt quae consequatur enim nisi placeat rem. Facilis delectus, voluptatibus explicabo porro, sed at officiis placeat, soluta accusantium dicta aliquid perspiciatis eaque ex! Animi!</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- imagen-1 -->
+				<div class="col-sm-4">
+					<div class="placeBox" data-aos="fade-up" data-aos-delay="0" data-aos-duration="3000">
+						<div class="imgBx"><img src="images/img-1.jpg" class="img-fluid"></div>
+						<div class="content">
+							<h3>
+								Image by <a href="https://pixabay.com/users/sasint-3639875/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1822639">Sasin Tipchai</a>
+								<br>
+								<span>from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1822639">Pixabay</a></span>
+								<!-- Place name
+								<br>
+								<span>Country name</span> -->
+							</h3>
+						</div>
+					</div>
+				</div>
+				<!-- imagen-2 -->
+				<div class="col-sm-4">
+					<div class="placeBox" data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500">
+						<div class="imgBx">
+							<img src="images/img-2.jpg" class="img-fluid">
+						</div>
+						<div class="content">
+							<h3>
+								Image by <a href="https://pixabay.com/users/sasint-3639875/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1822527">Sasin Tipchai</a>
+								<br>
+								<span>from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1822527">Pixabay</a></span>
+							</h3>
+						</div>
+					</div>
+				</div>
+				<!-- imagen-3 -->
+				<div class="col-sm-4">
+					<div class="placeBox" data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000">
+						<div class="imgBx"><img src="images/img-3.jpg" class="img-fluid"></div>
+						<div class="content">
+							<h3>
+								Image by <a href="https://pixabay.com/users/Free-Photos-242387/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=569318">Free-Photos</a>
+								<br>
+								<span>from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=569318">Pixabay</a></span>
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec2" id="adventure">
+		<div class="container h100">
+			<div class="contentBox h100">
+				<div>
+					<h1 data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000">Adventure is Everywhere</h1>
+					<p data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates id optio soluta aut cumque fugit beatae totam sed veniam minima, nulla saepe dolore dolores, eum laborum voluptas ea vel minus quasi alias aliquam praesentium illum.</p>
+					<a href="" class="btn btnD1" data-aos="fade-up" data-aos-delay="0" data-aos-duration="3000">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="blog" id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="offset-sm-2 col-sm-8">
+					<div class="headerText text-center">
+						<h2 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500">Our Latest Post</h2>
+						<p data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt saepe nobis earum mollitia omnis accusamus magnam perspiciatis culpa vero praesentium modi repellendus, neque fuga enim, consequatur, delectus voluptatem vel soluta maxime sint! Corrupti, animi iure!</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="blogpost" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500">
+						<div class="imgBx"><img src="images/img-4.jpg" class="img-fluid"></div>
+						<div class="content">
+							<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dolor?</h1>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic debitis molestiae magnam necessitatibus. Dolores eaque, sunt amet facilis ratione officia consequatur eius! Recusandae labore iste aspernatur quae cum cumque eum asperiores veritatis fugiat tenetur.</p>
+							<a href="" class="btn btnD2">Read More</a>
+							<!-- el clear fix sirve para cuando los objetos se salen -->
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="blogpost" data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000">
+						<div class="imgBx"><img src="images/img-1.jpg" class="img-fluid"></div>
+						<div class="content">
+							<h1>Debitis quasi minima expedita nulla dolores? Velit unde similique id!</h1>
+							<p>In asperiores deserunt veniam minus sapiente quas molestiae ratione accusantium, consequuntur molestias modi pariatur autem nam distinctio ipsum repellat. Earum quos deleniti obcaecati quisquam saepe expedita quae animi nihil. Nesciunt ea quaerat nihil ducimus perferendis?</p>
+							<a href="" class="btn btnD2">Read More</a>
+							<!-- el clear fix sirve para cuando los objetos se salen -->
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="blogpost" data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500">
+						<div class="imgBx"><img src="images/img-2.jpg" class="img-fluid"></div>
+						<div class="content">
+							<h1>Atque tenetur porro hic nesciunt praesentium explicabo labore repellat </h1>
+							<p>Sint dolore aperiam, necessitatibus quasi asperiores facere, id molestiae iste eum inventore recusandae fuga. Natus, consequuntur nisi quis eos necessitatibus magnam expedita? Nemo dolorum, odit soluta doloremque ad, sequi amet cum ab libero temporibus enim!</p>
+							<a href="" class="btn btnD2">Read More</a>
+							<!-- el clear fix sirve para cuando los objetos se salen -->
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="blogpost" data-aos="fade-up" data-aos-delay="0" data-aos-duration="3000">
+						<div class="imgBx"><img src="images/img-3.jpg" class="img-fluid"></div>
+						<div class="content">
+							<h1>Deleniti incidunt tempora id minima dicta delectus aut aperiam a.</h1>
+							<p>Nam officia ipsa cumque consequatur exercitationem numquam voluptates eos culpa eum iste beatae labore dolore, quia nostrum totam dolores quos. Obcaecati tempore voluptatum ex non neque placeat sint officiis voluptatem. Dolore quasi possimus magnam. Voluptate!</p>
+							<a href="" class="btn btnD2">Read More</a>
+							<!-- el clear fix sirve para cuando los objetos se salen -->
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="headerText text-center">
+						<h2 data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000">Contact Us</h2>
+						<p data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, natus.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="offset-sm-2 col-sm-8" data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000">
+					<form>
+						<div class="form-group"><label>Name</label><input type="text" class="form-control"></div>
+						<div class="form-group"><label>Email</label><input type="text" class="form-control"></div>
+						<div class="form-group"><label>Phone</label><input type="text" class="form-control"></div>
+						<div class="form-group"><label>Message</label><textarea name="" id="" cols="30" rows="5" class="form-control textarea"></textarea></div>
+						<div class="form-group text-center"><button class="btn btnD1">Send</button></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="sci">
+						<li><a href=""><i class="fab fa-facebook"></i></a></li>
+						<li><a href=""><i class="fab fa-twitter"></i></a></li>
+						<li><a href=""><i class="fab fa-instagram"></i></a></li>
+						<li><a href=""><i class="fab fa-github"></i></a></li>
+					</ul>
+					<p class="cpryt text-center">Copyright 219 Nature | Template by josh zulett</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- animation on scroll -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<!-- script para el navbar -->
+	<script type="text/javascript">
+		$(document).scroll(function () {
+			$('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+		})
+	</script>
+</body>
+</html>
